@@ -1,6 +1,7 @@
-def hello_world():
-    print("Hello, World!")
+def hello(message):
+    print(message)
 
 
 if __name__ == "__main__":
-    hello_world()
+    hello("Hello, World!")
+    hello("Hello, Claude!")
